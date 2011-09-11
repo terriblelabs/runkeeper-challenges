@@ -1,7 +1,11 @@
 RunkeeperChallenges::Application.routes.draw do
 
+  resources :challenges
+
   root :to => 'home#index'
-  match 'callback' => 'home#callback'
+
+  match 'sign_out' => 'sessions#destroy'
+  match 'callback' => 'sessions#create'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
