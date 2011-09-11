@@ -5,8 +5,11 @@ BabyTooth.configure do |config|
   config.authorization_url = "https://runkeeper.com/apps/authorize"
   config.site              = "http://api.runkeeper.com"
 
-  config.redirect_uri      = case Rails.env
-    when 'development': "http://localhost:3000/callback"
-    when 'production': "http://rk-challenges.herokuapp.com/callback"
-  end
+  config.redirect_uri      =
+    case Rails.env
+    when 'development'
+      "http://localhost:3000/callback"
+    when 'production'
+      "http://rk-challenges.herokuapp.com/callback"
+    end
 end
