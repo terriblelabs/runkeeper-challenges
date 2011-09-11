@@ -1,13 +1,17 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
+  def current_user_token
+    session[:token]
+  end
+
   def signed_in?
-    session[:token].present?
+    current_user_token.present?
   end
   helper_method :signed_in?
 
   def current_user
-    @current_user ||= BabyTooth::User.new(session[:token])
+    @current_user ||= BabyTooth::User.new(current_user_token)
   end
   helper_method :current_user
 

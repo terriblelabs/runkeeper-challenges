@@ -1,0 +1,8 @@
+= @challenge.inspect
+
+- unless signed_in?
+  %p
+    = link_to 'Sign in using RunKeeper to accept this challenge', BabyTooth.authorize_url(@challenge.email_token)
+  %p
+    Not a RunKeeper user? 
+    = link_to 'Sign up', 'http://runkeeper.com/'

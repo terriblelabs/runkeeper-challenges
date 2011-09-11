@@ -11,6 +11,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20110911181024) do
+
+  create_table "challenges", :force => true do |t|
+    t.date     "start_on"
+    t.date     "end_on"
+    t.integer  "reward"
+    t.integer  "goal"
+    t.text     "taunt"
+    t.string   "challenger_token"
+    t.string   "challenger_name"
+    t.string   "challengee_name"
+    t.string   "challengee_email"
+    t.string   "challengee_token"
+    t.string   "email_token"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "challenges", ["challengee_token"], :name => "index_challenges_on_challengee_token"
+  add_index "challenges", ["challenger_token"], :name => "index_challenges_on_challenger_token"
+  add_index "challenges", ["email_token"], :name => "index_challenges_on_email_token", :unique => true
 
 end

@@ -1,6 +1,18 @@
 %header
   %h1 Challenges
 
+  - if @challenges_for_me.any?
+    You've been challenged:
+    %ol
+      = render @challenges_for_me
+
+  - if @challenges_by_me.any?
+    You challenged others:
+    %ol
+      = render @challenges_by_me
+
+  = link_to "Challenge someone!", new_challenge_path
+
 %section
   %h2 Profile Dump
   = current_user.profile.body.inspect

@@ -1,0 +1,16 @@
+-# TODO Street Team
+
+= semantic_form_for @challenge do |form|
+  = form.inputs do
+    = form.input :challengee_name
+    = form.input :challengee_email
+
+    = form.input :start_on, :as => :date
+    = form.input :end_on, :as => :date
+
+    = form.input :goal
+    = form.input :reward
+    = form.input :taunt
+
+  = form.buttons do
+    = form.commit_button
