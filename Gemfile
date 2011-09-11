@@ -7,6 +7,7 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 
+gem 'baby_tooth', :git => 'git://github.com/terriblelabs/BabyTooth.git', :branch => 'edge'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -16,6 +17,7 @@ group :assets do
   gem 'uglifier'
 end
 
+gem 'haml-rails'
 gem 'jquery-rails'
 
 # Use unicorn as the web server
