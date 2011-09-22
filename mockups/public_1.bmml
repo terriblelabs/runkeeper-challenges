@@ -1,0 +1,96 @@
+<mockup version="1.0" skin="sketch" measuredW="706" measuredH="485" mockupW="679" mockupH="458">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="27" y="27" w="679" h="458" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>0</bottomheight>
+        <close>true</close>
+        <maximizeRestore>true</maximizeRestore>
+        <minimize>true</minimize>
+        <text>Runkeeper%20Challenge</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="90" y="62" w="204" h="-1" measuredW="174" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <size>16</size>
+        <text>Runkeeper%20Challenge%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="90" y="119" w="-1" h="-1" measuredW="426" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>*Ben%20Richards*%20challenged%20*Jake%20Cacciapaglia*</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Icon" x="92" y="229" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>ContactIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="220" y="264" w="-1" h="-1" measuredW="108" measuredH="17" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>0%20out%20of%20100%20miles%20run.</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Canvas" x="473" y="232" w="145" h="25" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>11982760</color>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="478" y="238" w="-1" h="-1" measuredW="136" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2575891</color>
+        <size>11</size>
+        <text>*%24100.00*%20for%20_Room%20to%20Read_</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Icon" x="90" y="160" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>AIMIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="143" y="180" w="-1" h="-1" measuredW="172" measuredH="29" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>100mi%20by%20*10/31/11*</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::ProgressBar" x="90" y="231" w="369" h="29" measuredW="100" measuredH="20" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <scrollBarValue>0</scrollBarValue>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="145" y="166" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>13</size>
+        <text>run</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Button" x="434" y="170" w="-1" h="-1" measuredW="66" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <size>10</size>
+        <text>Tweet%20it%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Button" x="500" y="170" w="-1" h="-1" measuredW="118" measuredH="28" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <size>10</size>
+        <text>Share%20on%20Facebook</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Paragraph" x="314" y="62" w="304" h="24" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <size>10</size>
+        <text>Want%20to%20create%20your%20own%20challenge%3F%20%5BSign%20in%20with%20Runkeeper%21%5D</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
