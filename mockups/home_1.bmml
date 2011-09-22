@@ -1,0 +1,33 @@
+<mockup version="1.0" skin="sketch" measuredW="706" measuredH="514" mockupW="679" mockupH="487">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="27" y="27" w="679" h="487" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bottomheight>0</bottomheight>
+        <close>true</close>
+        <maximizeRestore>true</maximizeRestore>
+        <minimize>true</minimize>
+        <text>Runkeeper%20Challenge%21%21%21%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="65" y="122" w="601" h="-1" measuredW="303" measuredH="37" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Runkeeper%20Challenge%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="90" y="197" w="274" h="88" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>1.%20Challenge%20your%20friends.%0A2.%20Compete%20on%20Runkeeper.%0A3.%20Raise%20money%20for%20charity%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="90" y="288" w="219" h="48" measuredW="164" measuredH="28" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>challenges_1%26bm%3Bchallenges_1.bmml%26bm%3Bchallenges_1.bmml%26bm%3Bchallenges_1.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2263%2C261%2C282%2C309%22%20href%3D%22challenges_1.bmml%22%20alt%3D%22challenges_1%22%20id%3D%224%22/%3E</map>
+        <text>Sign%20in%20with%20Runkeeper</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="379" y="184" w="232" h="175" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>
